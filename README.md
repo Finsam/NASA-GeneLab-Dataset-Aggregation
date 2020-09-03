@@ -20,4 +20,4 @@ Scripts utilized in correction of combined RNA-seq datasets from the NASA GeneLa
   - Script utilized to filter differential gene expression (DGE) files for corrected and uncorrected datasets. The DGE files were filtered to include flight vs. ground control sample comparisons.
 
 - [mouse_liver_pca.R](https://github.com/Finsam/NASA-GeneLab-Dataset-Aggregation/blob/master/mouse_liver_pca.R)
- - Script utilized to conduct and plot PCA analyses of corrected and uncorrected datasets.
+  - Script utilized to conduct and plot PCA analyses of corrected and uncorrected datasets.
