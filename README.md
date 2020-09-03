@@ -4,14 +4,14 @@ Scripts utilized in correction of combined RNA-seq datasets from the NASA GeneLa
 
 ## Files and Descriptions:
 
-### Modified correction functions
+### Modified Correction Functions
 - [ComBat_save_custom.R](https://github.com/Finsam/NASA-GeneLab-Dataset-Aggregation/blob/master/ComBat_save_custom.R)
   - Modified version of ComBat from the [Surrogate Variable Analysis](https://bioconductor.org/packages/release/bioc/html/sva.html) package. Allows for extraction of correction factors from ComBat correction (with the `ComBat_save` method), as well as application of custom correction factors to new datasets with correspoding groups (with the `ComBat_custom` method).
   
 - [ComBat_seq_save_custom.R](https://github.com/Finsam/NASA-GeneLab-Dataset-Aggregation/blob/master/ComBat_seq_save_custom.R)
   - Modified version of ComBat_seq from the [Surrogate Variable Analysis](https://bioconductor.org/packages/release/bioc/html/sva.html) package. Allows for extraction of correction factors from ComBat_seq correction (with the `ComBat_seq_save` method), as well as application of custom correction factors to new datasets with correspoding groups (with the `ComBat_seq_custom` method).
 
-### Data processing and analysis scripts
+### Data Processing and Analysis Scripts
 - [apply_corrections.R](https://github.com/Finsam/NASA-GeneLab-Dataset-Aggregation/blob/master/apply_corrections.R)
   - Script utilized to apply various correction methods to raw RNA transcript counts files and exports corrected counts.
 
